@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+.menu {
+    background-color: rgb(255, 236, 236);
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    padding: 2rem;
+}
+
+.is-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
