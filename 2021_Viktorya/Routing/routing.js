@@ -66,7 +66,7 @@ function activeLink(currentPath) {
 }
 
 function title(currentPath) {
-    document.title = currentPath[0].toString().toUpperCase() + currentPath.substring(1)
+    document.title = currentPath[0].toUpperCase() + currentPath.substring(1)
 }
 
 initRouting()
